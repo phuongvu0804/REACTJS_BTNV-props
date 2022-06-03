@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-bar {
+  transform: translateY(10%);
+  list-style: none;
+}
+
+.nav-bar li {
+  padding: 10px 0;
+}
+
+.nav-bar li.active {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.add-btn {
+  color: white;
+  background: black;
+  padding: 4px 14px;
+  border: none;
+}
+
+.shopping-cart-btn {
+  border-radius: 3px;
+}
+
+.card-item {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.table td, .table th {
+  padding: 0;
+}
