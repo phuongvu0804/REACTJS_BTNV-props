@@ -3,7 +3,6 @@ import React, { Component } from "react";
 export default class modalProduct extends Component {
   render() {
     const { data } = this.props
-    console.log( data)
     return (
       <div className="modal" id="modalProduct">
         <div className="modal-dialog">
@@ -15,13 +14,13 @@ export default class modalProduct extends Component {
               </button>
             </div>
             <div className="modal-body">
-              <div classname="row">
-                <div classname="col-sm-5">
-                  <img classname="img-fluid" style={{width: '100%'}} src={data.image} alt={data.name} />
+              <div className="row">
+                <div className="col-sm-5">
+                  <img className="img-fluid" style={{width: '100%'}} src={data.image} alt={data.name} />
                 </div>
-                <div classname="col-sm-7">
+                <div className="col-sm-7">
                   <h3>Product details</h3>
-                  <table classname="table">
+                  <table className="table">
                     <tbody>
                       <tr>
                         <td>Name</td>

@@ -6,7 +6,7 @@ export default class ProductList extends Component {
     const { handleProductDetails } = this.props
     return this.props.data.map( product => (
       <ProductItem 
-        key={product.maSP} 
+        key={product.id} 
         data={product} 
         handleProductDetails={handleProductDetails}
       />
